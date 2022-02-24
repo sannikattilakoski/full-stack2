@@ -141,6 +141,14 @@ main div.hello div.text p.introduction span {
     font-weight: bold;
 }
 
+main div.hello div.text p.introduction span a:visited{
+    color :  rgb(0, 0, 128);
+}
+
+main div.hello div.text p.introduction span a:hover{
+    color :  #D1B37F;
+}
+
 main div.hello div.studies {
     width: 450px;
     padding: 10px;
@@ -345,7 +353,7 @@ i.fa.fa-envelope {
     }
 
     main div.hello img.me {
-        width: 80%;
+        width: 70%;
         display: block;
         margin: auto;
         float: none;
