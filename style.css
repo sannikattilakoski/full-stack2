@@ -126,7 +126,7 @@ main div.hello {
 main img.me {
     float: right;
     max-height: 500px;
-    box-shadow: 0 4px 5px rgb(0, 0, 97);
+    box-shadow: 0px 5px 20px rgb(0, 0, 97);
     margin-bottom: 20px;
     margin-left: 30px;
     
@@ -149,17 +149,29 @@ main div.hello div.text p.introduction span a:hover{
     color :  #D1B37F;
 }
 
-main div.hello div.studies {
-    width: 450px;
+main div.studies {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        
+}
+
+main div.hello div.course {
+    max-width: 450px;
     padding: 10px;
     margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
     background-color: #fcf0dd;
     border: rgb(0, 0, 128) dotted 2px;
+    
+
   
 }
 
-main div.hello div.studies ul {
+main div.hello div.course ul {
     list-style: url(kuvat/check.png);
 }
 
@@ -261,7 +273,7 @@ i.fa.fa-envelope {
         width: 100%;
     }
 
-    main div.hello div.studies {
+    main div.hello div.course  {
         margin-top: 30px;
 
     }
@@ -288,6 +300,12 @@ i.fa.fa-envelope {
     }
 
     main div.hello div.studies {
+        display: grid;
+        gap: 0.5rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    main div.hello div.course {
         width: 90%;
         margin-top: 0;
         margin-left: auto;
@@ -364,7 +382,11 @@ i.fa.fa-envelope {
     main div.text {
         width: 100%;
     }
-
+    main div.hello div.studies {
+        display: grid;
+        gap: 0.5rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
     section.row {
         display: grid;
         gap: 0.5rem;
