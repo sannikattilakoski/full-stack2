@@ -166,12 +166,20 @@ main div.hello div.course {
     display: block;
     background-color: #fcf0dd;
     border: rgb(0, 0, 128) dotted 2px;
-    
-
-  
 }
 
-main div.hello div.course ul {
+main div.hello div.course1 {
+    max-width: 600px;
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #fcf0dd;
+    border: rgb(0, 0, 128) dotted 2px;
+}
+
+main div.hello div.course ul, main div.hello div.course1 ul{
     list-style: url(kuvat/check.png);
 }
 
@@ -180,7 +188,7 @@ main div.hello div.course ul {
 section.row {
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     width: 100%;
 }
 section.column {
@@ -202,8 +210,6 @@ section.row section.column img.jobs {
     margin: auto;
     margin-bottom: 35px;
 }
-
-
 
 section.row section.column a:link {
     color: rgb(0, 0, 128);
