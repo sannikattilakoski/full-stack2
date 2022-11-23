@@ -397,6 +397,7 @@ i.fa.fa-envelope {
     
     main div.hello div.course, main div.hello div.course1  {
         max-width: 90%;
+        padding: 5px;
     }
 
     section.row {
