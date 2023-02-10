@@ -158,7 +158,7 @@ main div.studies {
         
 }
 
-main div.hello div.course {
+main div.hello div.course, main div.hello div.course2 {
     max-width: 450px;
     padding: 10px;
     margin-top: 30px;
@@ -180,7 +180,7 @@ main div.hello div.course1 {
     border: rgb(0, 0, 128) dotted 2px;
 }
 
-main div.hello div.course ul, main div.hello div.course1 ul{
+main div.hello div.course ul, main div.hello div.course1 ul, main div.hello div.course2 ul{
     list-style: url(kuvat/check.png);
 }
 
