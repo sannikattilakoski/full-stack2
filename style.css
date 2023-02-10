@@ -162,27 +162,18 @@ main div.studies {
         width: 100%;
 }
 
-main div.hello div.course, main div.hello div.course2 {
+main div.hello div.course, div.course2, div.course1 {
     max-width: 400px;
     padding: 10px;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    background-color: #fcf0dd;
+    background-color: #f5f0e9;
     border: rgb(0, 0, 128) dotted 2px;
 }
 
-main div.hello div.course1 {
-    max-width: 600px;
-    padding: 10px;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    background-color: #fcf0dd;
-    border: rgb(0, 0, 128) dotted 2px;
-}
+
 
 main div.hello div.course ul, main div.hello div.course1 ul, main div.hello div.course2 ul{
     list-style: url(kuvat/check-mark2.png);
