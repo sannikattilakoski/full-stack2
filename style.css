@@ -275,7 +275,7 @@ i.fa.fa-envelope {
     body {
         width: 100%;
     }
-   main div.hello div.course, main div.hello div.course1  {
+   main div.hello div.course,  div.course1, div.course2  {
         margin-top: 30px;
 
     }
@@ -307,7 +307,7 @@ i.fa.fa-envelope {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    main div.hello div.course, main div.hello div.course1 {
+    main div.hello div.course, div.course1, div.course2 {
         width: 90%;
         margin-top: 0;
         margin-left: auto;
@@ -391,7 +391,7 @@ i.fa.fa-envelope {
         grid-template-columns: repeat(1, 1fr);
     }
     
-    main div.hello div.course, main div.hello div.course1  {
+    main div.hello div.course, div.course1, div.course2  {
         max-width: 90%;
         padding: 5px;
     }
