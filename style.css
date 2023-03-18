@@ -208,7 +208,8 @@ section.row section.column img.jobs {
     margin-bottom: 35px;
 }
 
-section.row section.column a:link {
+/*section.row section.column a:link*/
+section.row section.column a.down{
     color: rgb(0, 0, 128);
     background: transparent;
     text-decoration: none;
