@@ -158,11 +158,11 @@ main div.studies {
         font-size: 1.2em;
         display: grid;
         gap: 1rem;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         width: 100%;
 }
 
-main div.hello div.course, div.course1, div.course2 {
+main div.hello div.course, div.course2, div.course3, div.course4 {
     max-width: 400px;
     padding: 10px;
     margin-top: 30px;
@@ -175,7 +175,7 @@ main div.hello div.course, div.course1, div.course2 {
 
 
 
-main div.hello div.course ul, main div.hello div.course1 ul, main div.hello div.course2 ul{
+main div.hello div.course ul, main div.hello div.course2 ul, main div.hello div.course3 ul, main div.hello div.course4 ul{
     list-style: url(kuvat/check-mark2.png);
     padding-inline-start: 30px
 }
