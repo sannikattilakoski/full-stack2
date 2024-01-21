@@ -54,8 +54,8 @@ nav ul {
 }
 
 nav ul li {
-    display:inline; 
-    margin:0px 25px;
+    display: inline-block;
+    margin:0px 20px;
     color: #D1B37F;
     letter-spacing: 1px;
     font-size: 1.3em;
@@ -86,7 +86,7 @@ nav ul li a:active {
 }
 
 main {
-    padding-top: 20px; 
+    padding-top: 30px; 
     /* margin: 15px; */
     line-height: 1.5;
 }
@@ -128,7 +128,7 @@ main img.me {
     max-height: 400px;
     box-shadow: 0px 5px 20px rgb(0, 0, 72);
     margin-bottom: 20px;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-top: 60px;
     
 }
@@ -159,10 +159,10 @@ main div.studies {
     display: grid;
     gap: 3rem;
     grid-template-columns: repeat(2, 1fr);
-    width: 95%;
+    width: 85%;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 main div.hello div.course, div.course2, div.course3, div.course4 {
@@ -283,14 +283,28 @@ i.fa.fa-envelope {
 
 /*Mediakyselyt*/
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px){
     body {
-        width: 100%;
+        width: 90%;
     }
-   main div.hello div.course,  div.course1, div.course2  {
+}
+
+@media screen and (max-width: 1024px) {
+    nav ul li {
+        margin: 0px 10px;
+        font-size: 1.2em;
+    }
+
+    main div.studies {
+        width: 95%;
+        gap: 2rem;
+        gap: 1.5rem;
+        margin-top: 20px;
+    }
+   /* main div.hello div.course,  div.course2, div.course3, div.course4  {
         margin-top: 30px;
 
-    }
+    } */
 }
 
 @media screen and (max-width: 768px) {
@@ -309,22 +323,32 @@ i.fa.fa-envelope {
         font-size: 25px;
     }
 
+    nav{
+        padding: 0px
+    }
+
+    nav ul li{
+        margin: 0px 5px;
+    }
+
     main img.me {
         margin-bottom: 0;
     }
 
     main div.hello div.studies {
-        display: grid;
-        gap: 0.5rem;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5rem;
+        margin-top: 0;
+        /* grid-template-columns: repeat(2, 1fr); */
     }
 
-    main div.hello div.course, div.course1, div.course2 {
-        width: 90%;
+    main div.hello div.course, div.course2, div.course3, div.course4 {
         margin-top: 0;
         margin-left: auto;
         margin-right: auto;
     }
+
+
 
     section.row {
         display: grid;
@@ -397,15 +421,9 @@ i.fa.fa-envelope {
         width: 100%;
     }
     
-    main div.hello div.studies {
-        display: grid;
-        gap: 0.5rem;
-        grid-template-columns: repeat(1, 1fr);
-    }
     
-    main div.hello div.course, div.course1, div.course2  {
-        max-width: 90%;
-        padding: 5px;
+    main div.hello div.course, div.course2, div.course3, div.course4  {
+        padding: 10px;
     }
 
     section.row {
